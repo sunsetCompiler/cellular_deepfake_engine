@@ -26,8 +26,8 @@ from skimage.metrics import structural_similarity as ssim
 from pytorch_fid import fid_score
 
 # ---------- paths (edit!) ----------
-DATA_PATH = r"C:\Akshaj\BBBC018_v1_outlines"   # real PNGs inside one class folder
-OUT_DIR   = r"C:\Akshaj\gan_runs\out_wgan"     # any folder outside DATA_PATH
+DATA_PATH = r"C:\Akshaj\Desktop\Research Project\datasets\BBBC018_v1_outlines"   # real PNGs inside one class folder
+OUT_DIR   = r"C:\Akshaj\Desktop\Research Project\gan_runs\out_wgan"     # any folder outside DATA_PATH
 os.makedirs(f"{OUT_DIR}/real", exist_ok=True)
 os.makedirs(f"{OUT_DIR}/fake", exist_ok=True)
 
